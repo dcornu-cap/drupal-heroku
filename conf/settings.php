@@ -227,7 +227,7 @@
    'password' => $db["pass"],
    'host' => $db["host"],
    'port' => '3306',
-   'driver' => 'mysql',
+   'driver' => 'pgsql',
    'prefix' => '',
    'collation' => 'utf8mb4_general_ci',
   );

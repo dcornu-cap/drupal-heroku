@@ -221,8 +221,6 @@
 
   $db = parse_url($_ENV["DATABASE_URL"]);
 
-  var_dump($db);
-
   $databases['default']['default'] = array(
    'database' => trim($db["path"], "/"),
    'username' => $db["user"],

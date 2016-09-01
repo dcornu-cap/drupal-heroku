@@ -17,8 +17,7 @@
         "ext-openssl": "*",
         "ext-curl": "*",
         "ext-gd": "*",
-        "ext-mbstring": "*",
-        "drupal/drush": "@stable"
+        "ext-mbstring": "*"
     },
     "license": "MIT",
     "authors": [
@@ -26,6 +25,11 @@
             "name": "Damien Cornu",
             "email": "damien.cornu@capgemini.com"
         }
+    ],
+    "bin": [
+        "vendor/bin/drush",
+        "vendor/bin/drush.complete.sh",
+        "vendor/bin/drush.php"
     ],
     "scripts": {
         "post-install-cmd": [

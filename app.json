@@ -6,5 +6,5 @@
     "web",
     "cms"
   ],
-  "addons": ["cleardb:ignite","newrelic:wayne","sendgrid:starter"]
+  "addons": ["heroku-postgresql:hobby-dev","newrelic:wayne","sendgrid:starter"]
 }

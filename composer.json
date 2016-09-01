@@ -1,11 +1,11 @@
 {
-    "name": "ymhuang0808/drupal-heroku",
-    "description": "Drupal for Heroku deployment",
+    "name": "dcornu-cap/drupal-heroku",
+    "description": "Drupal 8 / Postgres for Heroku deployment",
     "require": {
         "php": "~7.0",
-        "ext-PDO": "*",
-        "ext-pdo_mysql": "*",
-        "ext-mysqli": "*",
+        "ext-pdo": "*",
+        "ext-pdo_pgsql": "*",
+        "ext-pgsql": "*",
         "ext-xml": "*",
         "ext-json": "*",
         "ext-openssl": "*",

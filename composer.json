@@ -4,8 +4,8 @@
     "require": {
         "php": "~7.0",
         "ext-pdo": "*",
-        "ext-pdo_pgsql": "*",
-        "ext-pgsql": "*",
+        "ext-pdo_mysql": "*",
+        "ext-mysqli": "*",
         "ext-xml": "*",
         "ext-json": "*",
         "ext-openssl": "*",

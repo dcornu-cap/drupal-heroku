@@ -7,5 +7,5 @@
     "cms"
   ],
   "repository": "https://github.com/dcornu-cap/drupal-heroku",
-  "addons": ["cleardb:ignite","newrelic:wayne","sendgrid:starter"]
+  "addons": ["heroku-postgresql:hobby-dev"]
 }

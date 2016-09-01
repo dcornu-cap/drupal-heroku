@@ -219,7 +219,7 @@
  * @endcode
  */
 
-  $db = parse_url($_ENV["DATABASE_URL"]);
+  $db = parse_url($_ENV["HEROKU_POSTGRESQL_RED_URL"]);
 
   $databases['default']['default'] = array(
    'database' => trim($db["path"], "/"),

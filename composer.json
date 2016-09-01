@@ -1,6 +1,12 @@
 {
     "name": "dcornu-cap/drupal-heroku",
     "description": "Drupal 8 / Postgres for Heroku deployment",
+    "repositories": [
+      {
+        "type": "composer",
+        "url": "https://packagist.drupal-composer.org"
+      }
+    ],
     "require": {
         "php": "~7.0",
         "ext-pdo": "*",
@@ -11,7 +17,8 @@
         "ext-openssl": "*",
         "ext-curl": "*",
         "ext-gd": "*",
-        "ext-mbstring": "*"
+        "ext-mbstring": "*",
+        "drush/drush": "@stable"
     },
     "license": "MIT",
     "authors": [

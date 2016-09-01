@@ -6,7 +6,7 @@ path=`pwd`
 
 drupal_path="$path/drupal"
 
-DRUPAL_VERSION=8.1.7
+DRUPAL_VERSION=8.1.8
 
 drupal_file_url="http://ftp.drupal.org/files/projects/drupal-${DRUPAL_VERSION}.tar.gz"
 

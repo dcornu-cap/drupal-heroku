@@ -31,5 +31,3 @@ curl -fSL $drupal_file_url -o drupal.tar.gz \
 echo "copy $default_config_path"
 
 cp $default_config_path "$drupal_path/sites/default/"
-
-

@@ -26,11 +26,6 @@
             "email": "damien.cornu@capgemini.com"
         }
     ],
-    "bin": [
-        "vendor/bin/drush",
-        "vendor/bin/drush.complete.sh",
-        "vendor/bin/drush.php"
-    ],
     "scripts": {
         "post-install-cmd": [
             "scripts/deploy.sh"
